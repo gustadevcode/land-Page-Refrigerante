@@ -76,3 +76,20 @@ background-color: #eee;
 #next{
     right: 20px;
 }
+
+@keyframes toUp {
+
+    from{
+        top: 100%;
+        opacity: 0;
+    }
+    
+}
+
+.item.active img.fruits {
+    animation: toUp 0.5s ease-in-out 1;
+}
+.item.active .title{
+    
+    animation: toUp 0.5s ease-in-out 1;
+}
